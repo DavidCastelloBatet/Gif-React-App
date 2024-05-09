@@ -3,10 +3,12 @@
 //todo GIFLIST component
 //todo GIFITEM component
 
+import { Header } from './components';
+
 export const App = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline bg-red-700">Gif React App</h1>
+      <Header />
     </>
   );
 };
